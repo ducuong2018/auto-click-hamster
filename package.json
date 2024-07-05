@@ -1,0 +1,14 @@
+{
+  "name": "hamster-clicker",
+  "version": "1.0.0",
+  "description": "Hamster Kombat Clicker API Caller",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
