@@ -4,7 +4,8 @@
   "description": "Hamster Kombat Clicker API Caller",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "run:docker": "docker build -t hamster-clicker . && docker run -d hamster-clicker"
   },
   "dependencies": {
     "axios": "^0.21.1"

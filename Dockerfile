@@ -15,5 +15,11 @@ RUN npm install
 # Copy the local code to the container image.
 COPY . .
 
+# Copy the start script to the container
+COPY start.sh .
+
+# Make the start script executable
+RUN chmod +x start.sh
+
 # Run the web service on container startup.
-CMD [ "node", "app.js" ]
+CMD ["./start.sh"]
