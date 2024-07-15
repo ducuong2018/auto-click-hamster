@@ -6,7 +6,7 @@ const callApi = async () => {
   try {
     const { data } = await axios({
       method: "post",
-      url: "https://api.hamsterkombat.io/clicker/tap",
+      url: "https://api.hamsterkombatgame.io/clicker/tap",
       headers: {
         "Accept-Language": "en,vi-VN;q=0.9,vi;q=0.8,en-US;q=0.7",
         Connection: "keep-alive",
